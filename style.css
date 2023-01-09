@@ -1,3 +1,63 @@
-.esports-info {
-  display: inline-block;
+.holdingcontainer {
+  width: 100%;
+  display: flex;
+  background: #ffc728;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+.internalcontainer-l {
+  flex: 1;
+  background: rgb(240, 135, 49);
+  padding: 30px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.internalcontainer-m {
+  flex: 1;
+  background: rgb(226, 213, 131);
+  padding: 30px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.internalcontainer-r {
+  flex: 1;
+  background: rgb(213, 244, 152);
+  padding: 30px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.scrloll-bg {
+  background: rgb(47, 64, 108);
+  width: 1700px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-radius: 15px;
+  
+}
+.scrloll-bg h1 {
+  color: white;
+}
+.scroll-div {
+  width: 1700px;
+  background: rgb(47, 64, 108);
+  height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.scroll-object {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .holdingcontainer {
+    flex-direction: column-reverse;
+  }
 }
